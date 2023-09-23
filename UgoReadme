@@ -1,0 +1,7 @@
+How Terraform modules works?
+
+Terraform is an IaC(infrastructure as Code) framework for managing and provisioning the infrastructure but have you ever thought of creating only a single terraform configuration file for managing the complete cloud infrastructure.
+
+Well, it sounds insane because if you only have a single file for managing the complete infrastructure then it will grow in complexity as well the line of configuration code will be manifold. That is why terraform introduced a concept of module which will help you to organize your terraform configuration so that you can re-use the configuration and keep your terraform code more clean and modular.
+
+In this blog post, we will create two modules module-1 and module-2. Inside each module, we will install the apache httpd server with each module is having its home page.
